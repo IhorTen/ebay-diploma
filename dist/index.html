@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ebay Search</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <style type="text/css">body {
+        font-family: arial, sans-serif;
+    } </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+</head>
+<body class="home page-template-default page page-id-11 wp-custom-logo woocommerce-js right-sidebar fullwidth-layout woocommerce-active">
+<div class="jumbotron jumbotron-fluid" style="text-align: center;"><h1>eBay API Search Results</h1>
+    <div class="container col-md-3 input-group search_div ">
+        <span class="butt_back_sp"></span>
+        <input type="text" class="form-control search_input"  placeholder="Please enter the text of your search"
+               autocomplete="on">
+        <button id="butt_off_on" class="btn btn-success btn-sm button_off_on disabled">Press to stop</button>
+    </div>
+    <button type="button" id="butt_start" class="button_status btn btn-primary btn-lg">Start Search</button>
+</div>
+
+<div class="container">
+    <div class="mt-container ">
+        <div class="section-title-wrapper has-title">
+            <div class="section-title-block-wrap es-clearfix">
+                <div class="section-title-block">
+                    <h2 class="es-block-title">New Elements</h2><span class="section-info"></span>
+                </div>
+            </div>
+        </div>
+        <div class="lSSlideOuter ">
+            <ul class="featuredProducts lightSlider lSSlide updated_el_list">
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="mt-container ">
+        <div class="section-title-wrapper ">
+            <div class="es-clearfix">
+                <div class="section-title-block">
+                    <h2 class="es-block-title">Saved ID Elements</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Id_List"></div>
+</div>
+
+<hr/>
+
+<script src="build.js" ></script>
+
+
+</body>
+</html>

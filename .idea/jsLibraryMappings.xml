@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$/src/js/index.js" libraries="{@types/bootstrap, @types/jquery}" />
+    <file url="file://$PROJECT_DIR$/src/js/modules/change_buttons.js" libraries="{@types/bootstrap, @types/jquery}" />
+    <file url="file://$PROJECT_DIR$/src/js/modules/get_keywords.js" libraries="{@types/bootstrap, @types/jquery}" />
+    <file url="file://$PROJECT_DIR$/src/js/modules/get_new_id_list.js" libraries="{@types/bootstrap, @types/jquery}" />
+    <file url="file://$PROJECT_DIR$/src/js/modules/get_url.js" libraries="{@types/bootstrap, @types/jquery}" />
+    <file url="file://$PROJECT_DIR$/src/js/modules/main_function.js" libraries="{@types/bootstrap, @types/jquery}" />
+    <file url="file://$PROJECT_DIR$/src/js/modules/only_en_lang.js" libraries="{@types/bootstrap, @types/jquery}" />
+  </component>
+</project>
